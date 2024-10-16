@@ -3,7 +3,7 @@
     <meta id="studioUploadedBy">sasboot</meta>
     <meta id="studioUploaded">1729085731680</meta>
     <meta id="studioModifiedBy">sasboot</meta>
-    <meta id="studioModified">1729086111538</meta>
+    <meta id="studioModified">1729086274322</meta>
     <meta id="layout">{"cq1":{"ModelReader":{"x":50,"y":50},"Score":{"x":50,"y":175},"Source":{"x":290,"y":50}}}</meta>
   </metadata>
   <contqueries>
@@ -42,14 +42,14 @@
             </fields>
           </schema>
           <connectors>
-            <connector name="Score_connector" class="fs">
+            <connector class="fs" name="score_Connector">
               <properties>
                 <property name="type"><![CDATA[pub]]></property>
-                <property name="fstype"><![CDATA[csv]]></property>
-                <property name="fsname"><![CDATA[@ESP_PROJECT_HOME@/test_files/score.csv]]></property>
                 <property name="noautogenfield"><![CDATA[true]]></property>
                 <property name="addcsvopcode"><![CDATA[true]]></property>
-                <property name="addcsvflags"><![CDATA[true]]></property>
+                <property name="addcsvflags"><![CDATA[normal]]></property>
+                <property name="fstype"><![CDATA[csv]]></property>
+                <property name="fsname"><![CDATA[@ESP_PROJECT_HOME@/test_files/score.csv]]></property>
               </properties>
             </connector>
           </connectors>
